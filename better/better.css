@@ -1,0 +1,58 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 18px;
+	font-family: inherit;
+	line-height: 1.8em;
+	color: white;
+}
+.pic1, .pic2, .pic3, .pic4{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.pic1{
+	background-image: url(011.jpg);
+	min-height: 100%;
+}
+.pic2{
+	background-image: url(019.jpg);
+	min-height: 80%;
+}
+.pic3{
+	background-image: url(018.jpg);
+	min-height: 80%;}
+.pic4{
+	background-image: url(009.jpg);
+	min-height: 80%;
+}
+.pic5{
+	background-image: url(016.jpg);
+	min-height: 100%;
+	min-width: 100%;
+}
+.section{
+	text-align: center;
+	padding: 30px 50px;
+	letter-spacing: 8px;
+	background-color: black;
+}
+.border{
+	background-color: black;
+	padding: 30px;
+	float: center;
+
+
+	
+
+}
+
+@media(max-width: 1000px){
+	.pic4, .pic3, .pic2, .pic1, .pic5{
+		background-attachment: scroll;
+	}
+}
